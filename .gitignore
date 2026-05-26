@@ -1,0 +1,10 @@
+# Ignore common junk
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore the specific folders that come with the exercises
+# Use a wildcard '*' to match any folder that contains these names
+**/test/
+**/tmc/
